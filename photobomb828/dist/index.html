@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" keywords="photography, pictures, travel">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/3f27b5c37d.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dist/css/simplelightbox.min.css">
+  <link rel="stylesheet" href="/dist/css/style.css">
+  <title>PhotoBomb828</title>
+</head>
+<body>
+ 
+     <nav class="navbar">
+       <div class="container">
+         <h1 class="logo">PhotoBomb828</h1>
+         <ul class="nav">
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+         </ul>
+       </div>
+     </nav>
+     <!-- Showcase -->
+     <section class="section-a">
+       <div class="container">
+         <div>
+           <h1>Photography of the Future</h1>
+           <p> We are family owed. The pictures on our site are our memories that we are sharing with the world.</p>
+           <a href="#" class="btn">Read More</a>
+         </div>
+         <img src="/dist/img/pb1.jpg" alt="farriswheel">
+       </div>
+     </section>
+
+     <!-- Overlay Text -->
+     <section class="section-b">
+       <div class="overlay">
+         <div class="section-b-inner">
+           <h3>Capture The</h3>
+           <h2>Memories Forever</h2>
+           <p>Whether it's that once-in-a-lifetime moment that you've captured or a memory that you put together. Make it last forever with a photo..</p> 
+         </div>
+       </div>
+     </section>
+     <!-- Gallery -->
+     <section class="section-c">
+       <div class="gallery">
+         <a href="/dist/img/phb4.jpg" class="big">
+        <img src="/dist/img/phb4.jpg" alt="garden">
+         </a>
+         <a href="/dist/img/phb1.jpg" class="big">
+        <img src="/dist/img/phb1.jpg" alt="">
+         </a>
+         <a href="/dist/img/phb3.jpg" class="big">
+        <img src="/dist/img/phb3.jpg" alt="">
+         </a>
+         <a href="/dist/img/pb3.jpg" class="big">
+        <img src="/dist/img/pb3.jpg" alt="">
+         </a>
+         <a href="/dist/img/phb5.jpg" class="big">
+        <img src="/dist/img/phb5.jpg" alt="">
+         </a>
+       </div>
+     </section>
+     <!-- Footer -->
+     <section>
+       <footer class="section-footer">
+         <div class="container">
+           <div>
+             <h2>Follow us on Social Media</h2>
+             <a href="http://instagram.com/photobomb828">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+             <a href="http://youtube.com/channel/UCD6jE2zcpcmRvXPo6Mauv8g">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+           </div>
+           <div>
+             <h3>Company Info</h3>
+             <ul>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Terms of Service</a></li>
+             </ul>
+           </div>
+           <div>
+             <h3>Innovation</h3>
+             <ul>
+               <li><a href="http://www.adorama.com">Adorama</a></li>
+               <li><a href="http://aperture.org">Aperture Magazine</a></li>
+               <li><a href="https://pexels.com">Pexels</a></li>
+             </ul>
+           </div>
+           <div>
+             <h3>Subscribe</h3>
+             <p> Would you like to share your memories? We can help you out with that.
+              </p>
+             <form name="email-form" method="POST" data-netlify="true">
+               <div class="email-form">
+                 <span class="form-control-wrap">
+                   <input type="email"
+                     name="email"
+                     id="email"
+                     size="40"
+                     class="form-control"
+                     placeholder="Email">
+                 </span>
+                 <button type="submit" class="submit">
+                   <i class="fas fa-chevron-right"></i>
+                 </button>
+               </div>
+             </form>
+           </div>
+           </div>
+         </div>
+       </footer>
+     </section>
+
+     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/dist/js/simple-lightbox.min.js"></script>
+  <script>
+
+       $(function() {
+         const $gallery = $('.gallery a ').simpleLightbox();
+       })        
+
+  </script>
+</body>
+</html>
